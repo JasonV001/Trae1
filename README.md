@@ -10,17 +10,17 @@
 
 ### 国际机器
 ```bash
-wget -O /root/install.sh https://raw.githubusercontent.com/kiss8202/Trae/main/install.sh && sh /root/install.sh
+wget -O /root/install.sh https://raw.githubusercontent.com/kiss8202/Trae1/main/install.sh && sh /root/install.sh
 ```
 
 ### 国内机器（使用镜像）
 ```bash
-wget -O /root/install.sh https://ghfast.top/https://raw.githubusercontent.com/Kiss8202/Trae/main/install.sh && sh /root/install.sh
+wget -O /root/install.sh https://ghfast.top/https://raw.githubusercontent.com/Kiss8202/Trae1/main/install.sh && sh /root/install.sh
 ```
 
 或指定镜像变量（推荐，模块下载也会走镜像）：
 ```bash
-GH_MIRROR=https://ghfast.top sh -c "$(curl -sfL https://raw.githubusercontent.com/kiss8202/Trae/main/install.sh)"
+GH_MIRROR=https://ghfast.top sh -c "$(curl -sfL https://raw.githubusercontent.com/kiss8202/Trae1/main/install.sh)"
 ```
 
 安装完成后输入 `sb` 即可进入管理菜单。
